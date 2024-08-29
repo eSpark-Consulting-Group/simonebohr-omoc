@@ -1,0 +1,465 @@
+.progressBar li {
+  display: flex;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.progressBar .activeProgress p {
+  color: #0094ff !important;
+}
+
+.progressBar span {
+  position: relative;
+  padding: 0px;
+}
+
+.progressBar span::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 0;
+  transform: translateX(50%);
+  border-radius: 50%;
+  background: #ccc;
+  border: 1px transparent solid;
+  width: 22px;
+  height: 22px;
+}
+
+.progressBar .activeProgress span::after {
+  background: #0094ff !important;
+}
+
+.progressBar p {
+  padding: 0px 10px 35px 20px;
+  position: relative;
+}
+
+.progressBar p::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: -2px;
+  height: 100%;
+  border-left: 4px #ccc solid;
+}
+
+.progressBar li:last-child p::before {
+  border: none;
+}
+
+.progressBar .activeProgress .activeLine::before {
+  border-left: 4px solid #0094ff !important;
+}
+
+.progressBar strong {
+  display: block;
+  font-weight: bolder;
+}
+
+.progressBar {
+  margin: 1em;
+  width: 100%;
+}
+.progressBar,
+.progressBar *::before,
+.progressBar *::after {
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.invoiceSubHeadClass p {
+  color: var(--primary-main, #0094ff);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+  border: 1px solid var(--primary-main, #0094ff);
+}
+
+.invoiceSubHeadClass span {
+  border-radius: 30px;
+  border: 1px solid var(--neutral-30, #d5d5d5);
+  color: var(--netural-70, #7a7a7a);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.searchFieldClass label {
+  border-radius: 30px;
+  border: 1px solid var(--neutral-30, #d5d5d5);
+  background: #fff;
+  font-size: 15px;
+}
+
+.searchFieldClass input:focus-visible {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.manageActive .active {
+  background-color: #0094ff;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.manageActive .subOptionActiveClass .active {
+  background-color: transparent;
+  color: #0094ff;
+  border-radius: 0px;
+}
+
+.invoiceHeader-class .active {
+  color: #0094ff;
+}
+
+.activeClass {
+  display: none;
+}
+
+.manageActive .active svg {
+  color: #fff !important;
+}
+
+.active .activeClass {
+  display: block !important;
+}
+
+.inactiveClass {
+  display: block;
+}
+
+.active .inactiveClass {
+  display: none !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.hrlineClass p {
+  position: relative;
+}
+
+.hrlineClass p::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #00000014;
+  width: 40%;
+  top: 8px;
+  right: -10px;
+}
+
+.hrlineClass p::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #00000014;
+  width: 40%;
+  top: 8px;
+  left: -10px;
+}
+
+.shopCreateClass button:disabled,
+.shopCreateClass button[disabled] {
+  background-color: #0094ff9c;
+}
+
+/* ===============Modal Styling================= */
+
+.modalCustomClass input:focus-visible {
+  outline: none !important;
+}
+
+.modalCustomClass select:focus-visible {
+  outline: none !important;
+}
+
+.modalCustomClass
+  .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedEnd.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 12px;
+  border: 1px solid #ededed;
+}
+
+.modalCustomClass
+  .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedEnd.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root:hover {
+  border: none !important;
+}
+
+.modalCustomClass
+  .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedEnd.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root:focus {
+  border: none !important;
+}
+
+.modalCustomClass
+  .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedEnd.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root:focus-visible {
+  outline: none !important;
+}
+
+.Mui-focused {
+  outline: none !important;
+  border: none !important;
+}
+
+.modalCustomClass th {
+  text-align: justify;
+  color: var(--Neutral-50, #c2c2c2);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.modalCustomClass
+  th.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.css-1ex1afd-MuiTableCell-root {
+  padding: 0px;
+}
+
+.modalCustomClass .css-1ex1afd-MuiTableCell-root {
+  padding: 20px 20px 20px 0px !important;
+}
+
+.modalCustomClass .css-1azl6jz-MuiTableCell-root {
+  padding: 10px 0px 10px 10px !important;
+}
+
+.css-1azl6jz-MuiTableCell-root {
+  border-bottom: none !important;
+}
+
+.modalCustomClass textarea:focus-visible {
+  outline: none;
+}
+
+.responsiveClass img {
+  height: auto !important;
+}
+
+.responsiveClass {
+  height: 100%;
+}
+
+.ReactFlagsSelect-module_selectBtn__19wW7 {
+  border: none !important;
+}
+
+.ReactFlagsSelect-module_selectBtn__19wW7:focus-visible {
+  outline: none !important;
+}
+
+.ReactFlagsSelect-module_fullWidthOptions__1XeR6 {
+  border-radius: 16px !important;
+  top: 60px;
+  border: none !important;
+  box-shadow: 7px -3px 21px 0px rgba(0, 0, 0, 0.07) !important;
+}
+
+.ReactFlagsSelect-module_fullWidthOptions__1XeR6:focus-visible {
+  outline: none !important;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  z-index: 99 !important;
+}
+
+.MuiTooltip-tooltip.MuiTooltip-tooltipArrow.MuiTooltip-tooltipPlacementTop.css-1k51tf5-MuiTooltip-tooltip {
+  color: var(--Neutral-90, #404040);
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+textarea:focus-visible {
+  outline: none;
+}
+
+.tagProductClass {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  position: fixed;
+  inset: 0px;
+}
+
+.tagProductClass .ReactModal__Content.ReactModal__Content--after-open {
+  height: fit-content !important;
+}
+
+/* .bg-Image {
+  background-image: url("../../assets/image/productImg/product\ 4.png");
+} */
+
+.sideBarClass {
+  display: none;
+}
+
+.css-1ygcj2i-MuiTableCell-root,
+.css-1ndpvdd-MuiTableCell-root {
+  border-bottom: none !important;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+  border-bottom: none !important;
+}
+
+.sideBarClass .css-1c35hjw-MuiPaper-root-MuiAccordion-root,
+.sideBarClass
+  .css-1c35hjw-MuiPaper-root-MuiAccordion-root.Mui-expanded:last-of-type {
+  background-color: transparent;
+  margin-top: 24px;
+}
+
+.css-yw020d-MuiAccordionSummary-expandIconWrapper svg {
+  width: 30px;
+  height: 30px;
+}
+
+
+/* ==============Pagination CSS=================== */
+.pagination {
+  --bs-pagination-padding-x: 0.75rem;
+  --bs-pagination-padding-y: 0.375rem;
+  --bs-pagination-font-size: 1rem;
+  --bs-pagination-color:#fff !important;
+  --bs-pagination-bg: #F8F8F8 !important;
+  --bs-pagination-border-width: var(--bs-border-width);
+  --bs-pagination-border-color: var(--bs-border-color);
+  --bs-pagination-border-radius: var(--bs-border-radius);
+  --bs-pagination-hover-color: var(--bs-link-hover-color);
+  --bs-pagination-hover-bg: var(--bs-tertiary-bg);
+  --bs-pagination-hover-border-color: var(--bs-border-color);
+  --bs-pagination-focus-color: var(--bs-link-hover-color);
+  --bs-pagination-focus-bg: var(--bs-secondary-bg);
+  --bs-pagination-focus-box-shadow: none !important;
+  --bs-pagination-active-color: #000 !important;
+  --bs-pagination-active-bg: #CCFF00 !important;
+  --bs-pagination-active-border-color: #CCFF00 !important;
+  --bs-pagination-disabled-color: var(--bs-secondary-color);
+  --bs-pagination-disabled-bg: var(--bs-secondary-bg);
+  --bs-pagination-disabled-border-color: var(--bs-border-color);
+  display: flex;
+  justify-content: center !important;
+  padding-left: 0;
+  list-style: none;
+  align-items: center !important;
+}
+
+.page-item {
+  padding: 5px 10px;
+  background-color: #F8F8F8;
+}
+
+.pagination .page-link {
+  border-radius: 100px !important;
+  color: #AEAEAE !important;
+  padding: 3px 4px;
+} 
+
+.pagination .page-link {
+  border-radius: 100px !important;
+  color: #AEAEAE !important;
+  padding: 3px 4px;
+  display: flex;
+  align-items: center;
+}
+
+.pagination svg {
+  display: inline !important;
+}
+
+.page-item-pre {
+  padding: 5px 10px;
+  background-color: #F8F8F8;
+  border-radius: 12px 0px 0px 12px;
+}
+.page-item-next {
+  padding: 5px 10px;
+  background-color: #F8F8F8;
+  border-radius: 0px 12px 12px 0px;
+}
+.activePage .page-link {
+  background-color: #0094ff;
+  color: white !important;
+  border-radius: 100%;
+  padding: 3px 4px;
+}
+
+.loaderClass {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: #0000006b;
+  z-index: 9999999;
+}
+
+.loaderClass .loader-icon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .ReactModal__Content.ReactModal__Content--after-open {
+    width: 60% !important;
+    right: 20% !important;
+  }
+
+  .tagProductClass .ReactModal__Content.ReactModal__Content--after-open {
+    height: auto !important;
+  }
+
+  .editClip_category {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ReactModal__Content.ReactModal__Content--after-open {
+    width: 70% !important;
+    right: 15% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ReactModal__Content.ReactModal__Content--after-open {
+    width: 80% !important;
+    right: 10% !important;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .responsiveClass img {
+    height: 100% !important;
+  }
+
+  .responsiveClass {
+    height: 132vh;
+  }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1500px) {
+  .responsiveClass img {
+    height: 100% !important;
+  }
+
+  .responsiveClass {
+    height: 116vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hideSideBarClass {
+    display: none;
+  }
+
+  .sideBarClass {
+    display: contents;
+  }
+}

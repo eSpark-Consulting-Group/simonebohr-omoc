@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "176320927004",
+    "project_id": "omoc-seller",
+    "storage_bucket": "omoc-seller.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176320927004:android:c6bae4e1d7982259f816d9",
+        "android_client_info": {
+          "package_name": "com.omoc.sellerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176320927004-fs00663a4rk84hhd79ml98bvo0dtnk5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.omoc.sellerapp",
+            "certificate_hash": "6fe8c708ea2d0fc236b856cd38dcda96137d3ec5"
+          }
+        },
+        {
+          "client_id": "176320927004-3rle3m26qkh4p7j9spfmdtujsvqoqghd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsppKA5pWTxBzc_e1Ci5ODXhTat6_bVbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176320927004-3rle3m26qkh4p7j9spfmdtujsvqoqghd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "176320927004-7ab69fb254mqc5jea9ou6sls9flasq9a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.omoc.sellerapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

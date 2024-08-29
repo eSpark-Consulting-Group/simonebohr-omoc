@@ -1,0 +1,2 @@
+REACT_APP_BASE_URL = "http://13.49.17.24:4000/v1/"
+REACT_APP_GOOGLE_CLIENT_APP = "268704938520-fsb1p0g3ujp2pg1oviph0o6kj9eqqift.apps.googleusercontent.com"

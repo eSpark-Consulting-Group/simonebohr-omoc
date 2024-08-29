@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "773879950938",
+    "project_id": "omoc--customer-project",
+    "storage_bucket": "omoc--customer-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773879950938:android:1fc22421e344bcf4a33263",
+        "android_client_info": {
+          "package_name": "com.omoc.buyerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773879950938-6ttvtpfocbujpsqiiie9kso5hoqcjnbl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.omoc.buyerapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "773879950938-2dm95o1lvu8alou5qukl4v26t6f85ilf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0EgkrtAQubkRibFTg2fBlDo0sRdmTQlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773879950938-2dm95o1lvu8alou5qukl4v26t6f85ilf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "773879950938-qhb4tnjt54sqd61f36fqvfn5a9d2gbld.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.omocTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

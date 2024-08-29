@@ -1,0 +1,7 @@
+.searchFieldClass select:focus-visible {
+    outline: none !important;
+}
+
+.addProductClass input:focus-visible {
+    outline: none !important;
+}
