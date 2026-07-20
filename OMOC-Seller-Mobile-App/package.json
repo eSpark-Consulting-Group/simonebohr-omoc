@@ -23,7 +23,7 @@
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/native-stack": "^6.9.17",
     "@reduxjs/toolkit": "^2.1.0",
-    "axios": "^1.6.7",
+    "axios": "^1.18.0",
     "metro-react-native-babel-transformer": "^0.77.0",
     "native-base": "^3.4.28",
     "react": "18.2.0",
