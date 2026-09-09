@@ -31,7 +31,7 @@
     "mongoose": "^8.0.3",
     "multer": "^2.2.0",
     "nodemailer": "^8.0.9",
-    "sharp": "^0.33.2",
+    "sharp": "^0.35.4",
     "socket.io": "^4.7.5",
     "streamifier": "^0.1.1",
     "stripe": "^15.5.0",
